@@ -1,0 +1,164 @@
+﻿body
+{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt
+{
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea
+{
+    max-width: 280px;
+}
+
+/* CSS Content bobdy-top of the webpage */
+.nav-header 
+{
+    color: grey;
+    padding: 5px;
+}
+
+.body-content-area
+{
+	float: left;
+	width: 50%;
+}
+
+.top-div-Padding
+{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.top-divs
+{
+	background-color: #97a8a2;
+	min-height: 235px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.top-divs-h
+{
+    font-size: 30px;
+    border-radius: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+    padding-top: 0px;
+	margin: 3px;
+    text-align: center;
+    height: 50px;
+    width: 550px;
+    background-color: gray;
+    color: white;
+}
+
+.top-left-div-picture
+{
+    margin-top: 20px;
+    float: left;
+    margin-left: 5px;
+    height: 130px;
+    width: 120px;
+    background-image: url(../Images/IK.jpg);
+    background-size: cover;
+}
+
+.top-divs-text-right
+{
+    padding-left: 150px;
+    padding-top: 35px;
+}
+
+.top-div-left-picture-top
+{
+    padding-top: 15px;
+    height: 40px;
+    margin: 10px;
+    width: 40px;
+    background-image: url(../Images/logo.png);
+    background-size: 100%;
+}
+
+.top-div-left-picture-center
+{
+    height: 50px;
+    padding: 10px;
+    margin-left:10px;
+    width: 40px;
+    background-image: url(../Images/css_logo.png);
+    background-size: 100%;
+}
+
+.top-div-left-picture-botton
+{
+    height: 40px;
+    margin: 10px;
+    width: 40px;
+    background-image: url(../Images/unity.png);
+    background-size: 100%;
+}
+
+.top-divs-text-top
+{
+     margin-top: -5px;
+     padding-top: 10px;
+     padding-left: 50px;
+}
+
+.top-divs-text-center
+{
+    padding-top: 5px;
+    padding-left: 40px;
+}
+
+.top-divs-text-botton 
+{
+    padding-left: 50px;
+    padding-top: 10px;    
+}
+
+.top-div-left-picture-top-right
+{
+    height: 40px;
+    margin: 10px;
+    width: 40px;
+    background-image: url(../Images/photoshop_logo.png);
+    background-size: 100%;
+    float: right;
+    margin-right: 150px;
+}
+
+.top-divs-text-top-right
+{
+    padding-top: 10px;
+    padding-left: 55px;
+}
+
+/* CSS Content bobdy-mid of the webpage */
+
+.mid-body-content
+{
+    border-radius: 5px;
+    margin-left: -5px;
+    margin-top: 20px;
+    width: 1150px;
+    height: 500px;
+    background-color: green;
+}
